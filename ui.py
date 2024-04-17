@@ -27,7 +27,11 @@ class View(QWidget):
         self.le2.setAlignment(QtCore.Qt.AlignRight)
         
         self.cb = QComboBox(self)
+<<<<<<< HEAD
         self.cb.addItems(['+', '-', '*', '/', '^', '%', '//'])
+=======
+        self.cb.addItems(['+', '-', '*', '/', '^', '%','//'])
+>>>>>>> c4c3d64 (modify ui.py to add // operator in Qcombobox)
         
         
         hbox_formular = QHBoxLayout()
